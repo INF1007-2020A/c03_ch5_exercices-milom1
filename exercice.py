@@ -15,7 +15,10 @@ return nombre
 
 def use_prefixes() -> List[str]:
     prefixes, suffixes = 'JKLMNOP', 'ack'
-
+    
+    for lettre in prefixes:
+        nom = lettre + suffixes
+    
     return [""]
 
 
