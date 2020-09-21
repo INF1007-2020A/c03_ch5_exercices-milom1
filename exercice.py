@@ -39,7 +39,15 @@ return sommes
 
 
 def factorial(number: int) -> int:
-    return 0
+result = 1
+number = 10
+if number == 0:
+    return result
+    
+else :
+    for i in range(number):
+        result *= (number - i)
+return result
 
 
 def use_continue() -> None:
