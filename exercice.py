@@ -40,7 +40,6 @@ return sommes
 
 def factorial(number: int) -> int:
 result = 1
-number = 10
 if number == 0:
     return result
     
